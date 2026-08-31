@@ -1,0 +1,21 @@
+{
+"table": "tab:bd-ours",
+"csv": "utility/results/reproduce/tab_backdoor.csv",
+"key": ["setting", "value"],
+"decimals": {"f1": 2},
+"rows": [
+{"setting": "baseline", "value": "iid", "f1": 0.89},
+{"setting": "alpha", "value": 0.1, "f1": 0.00},
+{"setting": "alpha", "value": 1,   "f1": 0.00},
+{"setting": "alpha", "value": 10,  "f1": 1.00},
+{"setting": "n", "value": 5,  "f1": 1.00},
+{"setting": "n", "value": 20, "f1": 0.67},
+{"setting": "n", "value": 50, "f1": 1.00},
+{"setting": "mal", "value": 0.2, "f1": 1.00},
+{"setting": "mal", "value": 0.3, "f1": 1.00},
+{"setting": "pr", "value": 0.1, "f1": 1.00},
+{"setting": "pr", "value": 0.2, "f1": 1.00},
+{"setting": "pr", "value": 0.5, "f1": 0.67},
+{"setting": "pr", "value": 0.8, "f1": 0.67}
+]
+}

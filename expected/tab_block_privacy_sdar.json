@@ -1,0 +1,98 @@
+{
+"table": "tab:block_privacy_unsplit (SDAR columns)",
+"csv": "attack-sdar/reproduce/results/tab_block_privacy_sdar.csv",
+"key": [
+"block",
+"cr",
+"dp_sigma"
+],
+"decimals": {
+"l7_pct": 0,
+"l4_pct": 0
+},
+"rows": [
+{
+"block": 1,
+"cr": 8,
+"dp_sigma": "0",
+"l7_pct": 56,
+"l4_pct": 86
+},
+{
+"block": 1,
+"cr": 16,
+"dp_sigma": "0",
+"l7_pct": 30,
+"l4_pct": 79
+},
+{
+"block": 1,
+"cr": 32,
+"dp_sigma": "0",
+"l7_pct": 28,
+"l4_pct": 74
+},
+{
+"block": 2,
+"cr": 8,
+"dp_sigma": "0",
+"l7_pct": 36,
+"l4_pct": 83
+},
+{
+"block": 2,
+"cr": 16,
+"dp_sigma": "0",
+"l7_pct": 48,
+"l4_pct": 78
+},
+{
+"block": 2,
+"cr": 32,
+"dp_sigma": "0",
+"l7_pct": 26,
+"l4_pct": 71
+},
+{
+"block": 4,
+"cr": 8,
+"dp_sigma": "0",
+"l7_pct": 38,
+"l4_pct": 72
+},
+{
+"block": 4,
+"cr": 16,
+"dp_sigma": "0",
+"l7_pct": 18,
+"l4_pct": 46
+},
+{
+"block": 4,
+"cr": 32,
+"dp_sigma": "0",
+"l7_pct": 29,
+"l4_pct": 53
+},
+{
+"block": 1,
+"cr": 8,
+"dp_sigma": "0.02",
+"l7_pct": 23,
+"l4_pct": 69
+},
+{
+"block": 2,
+"cr": 8,
+"dp_sigma": "0.02",
+"l7_pct": 25,
+"l4_pct": 63
+},
+{
+"block": 4,
+"cr": 8,
+"dp_sigma": "0.02",
+"l7_pct": 26
+}
+]
+}

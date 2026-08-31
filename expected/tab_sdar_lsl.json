@@ -1,0 +1,32 @@
+{
+"table": "tab:sdar_lsl",
+"csv": "attack-sdar-lightsplit-l/reproduce/results/tab_sdar_lsl.csv",
+"key": [
+"cr"
+],
+"decimals": {
+"ssim": 3,
+"psnr": 2,
+"lpips": 4
+},
+"rows": [
+{
+"cr": 8,
+"ssim": 0.177,
+"psnr": 12.45,
+"lpips": 0.6375
+},
+{
+"cr": 16,
+"ssim": 0.117,
+"psnr": 11.25,
+"lpips": 0.6564
+},
+{
+"cr": 32,
+"ssim": 0.139,
+"psnr": 11.86,
+"lpips": 0.6603
+}
+]
+}

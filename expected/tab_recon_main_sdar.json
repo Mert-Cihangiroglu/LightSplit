@@ -1,0 +1,64 @@
+{
+"table": "tab:privacy_all (SDAR pair)",
+"csv": "attack-sdar/reproduce/results/tab_recon_main_sdar.csv",
+"key": [
+"method",
+"wcc"
+],
+"decimals": {
+"lpips": 3,
+"ssim": 3,
+"lpips_gain_pct": 1,
+"ssim_gain_pct": 1
+},
+"rows": [
+{
+"method": "Raw",
+"wcc": "",
+"lpips": 0.29,
+"ssim": 0.832
+},
+{
+"method": "Raw+DP",
+"wcc": "",
+"lpips_gain_pct": 57.7,
+"ssim_gain_pct": -41.6
+},
+{
+"method": "Learned1x1",
+"wcc": "",
+"lpips_gain_pct": 21.5,
+"ssim_gain_pct": -18.5
+},
+{
+"method": "topk_sparse",
+"wcc": "",
+"lpips_gain_pct": 12.7,
+"ssim_gain_pct": -13.6
+},
+{
+"method": "LightSplit-F",
+"wcc": "0",
+"lpips_gain_pct": 61.3,
+"ssim_gain_pct": -37.0
+},
+{
+"method": "LightSplit-F",
+"wcc": "0.001",
+"lpips_gain_pct": 74.7,
+"ssim_gain_pct": -49.0
+},
+{
+"method": "LightSplit-F",
+"wcc": "0.1",
+"lpips_gain_pct": 83.9,
+"ssim_gain_pct": -36.7
+},
+{
+"method": "LightSplit-F+DP",
+"wcc": "",
+"lpips_gain_pct": 86.5,
+"ssim_gain_pct": -64.0
+}
+]
+}

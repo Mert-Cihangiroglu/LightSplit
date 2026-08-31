@@ -1,0 +1,12 @@
+{
+"table": "tab:comm_cost",
+"csv": "utility/results/reproduce/tab_comm_cost.csv",
+"key": ["cr"],
+"decimals": {"k": 0, "floats_per_sample": 0, "total_gb": 1},
+"rows": [
+{"cr": 1,  "k": 4096, "floats_per_sample": 8192, "total_gb": 152.6},
+{"cr": 8,  "k": 512,  "floats_per_sample": 1024, "total_gb": 19.1},
+{"cr": 16, "k": 256,  "floats_per_sample": 512,  "total_gb": 9.5},
+{"cr": 32, "k": 128,  "floats_per_sample": 256,  "total_gb": 4.8}
+]
+}

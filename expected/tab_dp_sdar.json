@@ -1,0 +1,33 @@
+{
+"table": "tab:dp_privacy",
+"csv": "attack-sdar/reproduce/results/tab_dp_sdar_privacy.csv",
+"key": [
+"config"
+],
+"decimals": {
+"l7_ssim": 3,
+"l4_ssim": 3
+},
+"rows": [
+{
+"config": "Raw",
+"l7_ssim": 0.572,
+"l4_ssim": 0.832
+},
+{
+"config": "Raw+DP",
+"l7_ssim": 0.181,
+"l4_ssim": 0.486
+},
+{
+"config": "LightSplit-F",
+"l7_ssim": 0.36,
+"l4_ssim": 0.524
+},
+{
+"config": "LightSplit-F+DP",
+"l7_ssim": 0.139,
+"l4_ssim": 0.3
+}
+]
+}

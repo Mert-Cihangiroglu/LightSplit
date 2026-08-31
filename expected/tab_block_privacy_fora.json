@@ -1,0 +1,97 @@
+{
+ "table": "FORA columns of tab:block_privacy_unsplit (tables/block/block_privacy_attacks.tex)",
+ "key": [
+  "method",
+  "block",
+  "wcc",
+  "k",
+  "dp_sigma"
+ ],
+ "decimals": {
+  "pseudo_ssim": 2,
+  "ref_ssim": 2
+ },
+ "rows": [
+  {
+   "method": "block_random",
+   "block": "1",
+   "wcc": "0",
+   "k": "2048",
+   "dp_sigma": "0",
+   "ref_ssim": 0.86
+  },
+  {
+   "method": "block_random",
+   "block": "1",
+   "wcc": "0",
+   "k": "1024",
+   "dp_sigma": "0",
+   "ref_ssim": 0.78,
+   "pseudo_ssim": 0.58
+  },
+  {
+   "method": "block_random",
+   "block": "1",
+   "wcc": "0",
+   "k": "512",
+   "dp_sigma": "0",
+   "ref_ssim": 0.57,
+   "pseudo_ssim": 0.16
+  },
+  {
+   "method": "block_random",
+   "block": "2",
+   "wcc": "0",
+   "k": "2048",
+   "dp_sigma": "0",
+   "ref_ssim": 0.87,
+   "pseudo_ssim": 0.01
+  },
+  {
+   "method": "block_random",
+   "block": "2",
+   "wcc": "0",
+   "k": "1024",
+   "dp_sigma": "0",
+   "ref_ssim": 0.83,
+   "pseudo_ssim": 0.27
+  },
+  {
+   "method": "block_random",
+   "block": "2",
+   "wcc": "0",
+   "k": "512",
+   "dp_sigma": "0",
+   "ref_ssim": 0.75,
+   "pseudo_ssim": 0.16
+  },
+  {
+   "method": "block_random",
+   "block": "4",
+   "wcc": "0",
+   "k": "2048",
+   "dp_sigma": "0",
+   "ref_ssim": 0.82,
+   "pseudo_ssim": 0.1
+  },
+  {
+   "method": "block_random",
+   "block": "4",
+   "wcc": "0",
+   "k": "1024",
+   "dp_sigma": "0",
+   "ref_ssim": 0.76,
+   "pseudo_ssim": 0.17
+  },
+  {
+   "method": "block_random",
+   "block": "4",
+   "wcc": "0",
+   "k": "512",
+   "dp_sigma": "0",
+   "ref_ssim": 0.72,
+   "pseudo_ssim": 0.2
+  }
+ ],
+ "note": "one run per cell; the b=1, k=2048 pseudo cell is blank in the paper because its only run collapsed."
+}

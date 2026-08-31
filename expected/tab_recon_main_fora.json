@@ -1,0 +1,98 @@
+{
+ "table": "FORA columns of tab:privacy_all (tables/recon_main.tex): change vs Raw of the pseudo decoder's LPIPS and SSIM",
+ "key": [
+  "method",
+  "block",
+  "wcc",
+  "k",
+  "dp_sigma"
+ ],
+ "decimals": {
+  "pseudo_lpips_pct": 1,
+  "pseudo_ssim_pct": 1
+ },
+ "rows": [
+  {
+   "method": "none",
+   "block": "",
+   "wcc": "0",
+   "k": "",
+   "dp_sigma": "0.02",
+   "pseudo_lpips_pct": 212.3,
+   "pseudo_ssim_pct": -95.6
+  },
+  {
+   "method": "learned_1x1",
+   "block": "",
+   "wcc": "0",
+   "k": "8",
+   "dp_sigma": "0",
+   "pseudo_lpips_pct": 97.7,
+   "pseudo_ssim_pct": -30.1
+  },
+  {
+   "method": "topk_sparse",
+   "block": "",
+   "wcc": "0",
+   "k": "2048",
+   "dp_sigma": "0",
+   "pseudo_lpips_pct": 78.9,
+   "pseudo_ssim_pct": -28.7
+  },
+  {
+   "method": "fixed_random",
+   "block": "",
+   "wcc": "0",
+   "k": "2048",
+   "dp_sigma": "0",
+   "pseudo_lpips_pct": 217.8,
+   "pseudo_ssim_pct": -96.0
+  },
+  {
+   "method": "fixed_random",
+   "block": "",
+   "wcc": "0.001",
+   "k": "2048",
+   "dp_sigma": "0",
+   "pseudo_lpips_pct": 195.6,
+   "pseudo_ssim_pct": -84.5
+  },
+  {
+   "method": "fixed_random",
+   "block": "",
+   "wcc": "0.1",
+   "k": "2048",
+   "dp_sigma": "0",
+   "pseudo_lpips_pct": 221.0,
+   "pseudo_ssim_pct": -101.9
+  },
+  {
+   "method": "fixed_random",
+   "block": "",
+   "wcc": "0.1",
+   "k": "1024",
+   "dp_sigma": "0",
+   "pseudo_lpips_pct": 216.0,
+   "pseudo_ssim_pct": -98.4
+  },
+  {
+   "method": "fixed_random",
+   "block": "",
+   "wcc": "0.1",
+   "k": "512",
+   "dp_sigma": "0",
+   "pseudo_lpips_pct": 215.7,
+   "pseudo_ssim_pct": -94.8
+  },
+  {
+   "method": "fixed_random",
+   "block": "",
+   "wcc": "0",
+   "k": "2048",
+   "dp_sigma": "0.02",
+   "pseudo_lpips_pct": 212.1,
+   "pseudo_ssim_pct": -96.9
+  }
+ ],
+ "csv": "tab_fora.csv"
+}

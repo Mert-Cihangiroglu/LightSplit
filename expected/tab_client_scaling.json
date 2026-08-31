@@ -1,0 +1,14 @@
+{
+"table": "tab:client_scaling_ablation",
+"csv": "utility/results/reproduce/tab_client_scaling.csv",
+"key": ["dataset", "method"],
+"decimals": {"n10": 2, "n25": 2, "n50": 2, "n100": 2, "delta": 2},
+"rows": [
+{"dataset": "cifar10", "method": "Raw",          "n10": 87.24, "n25": 85.89, "n50": 88.31, "n100": 88.02, "delta": 0.78},
+{"dataset": "cifar10", "method": "LightSplit-F", "n10": 83.50, "n25": 84.69, "n50": 83.76, "n100": 83.31, "delta": -0.19},
+{"dataset": "cifar10", "method": "LightSplit-L", "n10": 83.42, "n25": 83.80, "n50": 83.82, "n100": 83.40, "delta": -0.02},
+{"dataset": "cifar100", "method": "Raw",          "n10": 59.47, "n25": 54.85, "n50": 54.21, "n100": 54.39, "delta": -5.08},
+{"dataset": "cifar100", "method": "LightSplit-F", "n10": 52.83, "n25": 50.56, "n50": 49.52, "n100": 49.50, "delta": -3.33},
+{"dataset": "cifar100", "method": "LightSplit-L", "n10": 56.49, "n25": 55.51, "n50": 54.61, "n100": 53.89, "delta": -2.60}
+]
+}

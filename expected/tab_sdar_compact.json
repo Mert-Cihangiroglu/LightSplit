@@ -1,0 +1,57 @@
+{
+"table": "tab:sdar-main-compact",
+"csv": "attack-sdar/reproduce/results/tab_sdar_compact.csv",
+"key": [
+"method",
+"wcc"
+],
+"decimals": {
+"mse": 4,
+"ssim": 4,
+"psnr": 2,
+"lpips": 3,
+"delta_raw": 2
+},
+"rows": [
+{
+"method": "Raw",
+"wcc": "",
+"mse": 0.0076,
+"ssim": 0.8323,
+"psnr": 21.21,
+"lpips": 0.2899
+},
+{
+"method": "Learned1x1",
+"wcc": "",
+"mse": 0.0185,
+"ssim": 0.6784,
+"psnr": 17.33,
+"lpips": 0.3524
+},
+{
+"method": "LightSplit-F",
+"wcc": "0",
+"mse": 0.0163,
+"ssim": 0.5244,
+"psnr": 17.88,
+"lpips": 0.4677
+},
+{
+"method": "LightSplit-F",
+"wcc": "0.01",
+"mse": 0.0263,
+"ssim": 0.3736,
+"psnr": 15.8,
+"lpips": 0.4968
+},
+{
+"method": "LightSplit-F",
+"wcc": "0.1",
+"mse": 0.0191,
+"ssim": 0.5269,
+"psnr": 17.18,
+"lpips": 0.5331
+}
+]
+}

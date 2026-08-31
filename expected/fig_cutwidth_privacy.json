@@ -1,0 +1,113 @@
+{
+ "table": "fig_cutwidth_privacy",
+ "key": [
+  "d",
+  "cr"
+ ],
+ "decimals": {
+  "ssim_max": 3
+ },
+ "note": "d=8192/CR16 is printed as 0.341 in the paper; the strongest attack over all five seeds is 0.364 (seed 3 finished after the figure was built)",
+ "rows": [
+  {
+   "d": 512,
+   "cr": 1,
+   "ssim_max": 0.457
+  },
+  {
+   "d": 1024,
+   "cr": 1,
+   "ssim_max": 0.506
+  },
+  {
+   "d": 2048,
+   "cr": 1,
+   "ssim_max": 0.543
+  },
+  {
+   "d": 4096,
+   "cr": 1,
+   "ssim_max": 0.584
+  },
+  {
+   "d": 8192,
+   "cr": 1,
+   "ssim_max": 0.63
+  },
+  {
+   "d": 512,
+   "cr": 8,
+   "ssim_max": 0.192
+  },
+  {
+   "d": 1024,
+   "cr": 8,
+   "ssim_max": 0.224
+  },
+  {
+   "d": 2048,
+   "cr": 8,
+   "ssim_max": 0.242
+  },
+  {
+   "d": 4096,
+   "cr": 8,
+   "ssim_max": 0.354
+  },
+  {
+   "d": 8192,
+   "cr": 8,
+   "ssim_max": 0.282
+  },
+  {
+   "d": 512,
+   "cr": 16,
+   "ssim_max": 0.177
+  },
+  {
+   "d": 1024,
+   "cr": 16,
+   "ssim_max": 0.214
+  },
+  {
+   "d": 2048,
+   "cr": 16,
+   "ssim_max": 0.151
+  },
+  {
+   "d": 4096,
+   "cr": 16,
+   "ssim_max": 0.319
+  },
+  {
+   "d": 8192,
+   "cr": 16,
+   "ssim_max": 0.341
+  },
+  {
+   "d": 512,
+   "cr": 32,
+   "ssim_max": 0.134
+  },
+  {
+   "d": 1024,
+   "cr": 32,
+   "ssim_max": 0.17
+  },
+  {
+   "d": 2048,
+   "cr": 32,
+   "ssim_max": 0.149
+  },
+  {
+   "d": 4096,
+   "cr": 32,
+   "ssim_max": 0.179
+  },
+  {
+   "d": 8192,
+   "cr": 32,
+   "ssim_max": 0.176
+  }
+ ]
+}

@@ -1,0 +1,18 @@
+{
+"table": "tab:proj_opt",
+"csv": "attack-projection-optimized/reproduce/results/tab_proj_optimized.csv",
+"key": [
+"signals"
+],
+"decimals": {
+"cr8": 3,
+"cr16": 3,
+"cr32": 3
+},
+"rows": [
+{"signals": "z",       "cr8": 0.592, "cr16": 0.549, "cr32": 0.505},
+{"signals": "z+zRT",   "cr8": 0.624, "cr16": 0.569, "cr32": 0.520},
+{"signals": "z+g",     "cr8": 0.557, "cr16": 0.504, "cr32": 0.469},
+{"signals": "z+g+zRT", "cr8": 0.588, "cr16": 0.536, "cr32": 0.493}
+]
+}

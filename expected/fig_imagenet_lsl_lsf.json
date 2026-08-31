@@ -1,0 +1,32 @@
+{
+ "table": "fig_imagenet_lsl_lsf",
+ "key": [
+  "pair"
+ ],
+ "decimals": {
+  "lsl_best_top1": 2,
+  "lsf_best_top1": 2,
+  "ratio_best_pct": 1,
+  "ratio_final_tenth_pct": 1,
+  "ratio_final_pct": 1
+ },
+ "rows": [
+  {
+   "pair": "adam30",
+   "lsl_best_top1": 23.73,
+   "lsf_best_top1": 22.11,
+   "ratio_best_pct": 107.3
+  },
+  {
+   "pair": "adam100",
+   "lsl_best_top1": 23.53,
+   "lsf_best_top1": 23.42,
+   "ratio_best_pct": 100.5,
+   "ratio_final_tenth_pct": 99.5
+  },
+  {
+   "pair": "block_b2_vs_lsf_sgd90",
+   "ratio_final_pct": 126.6
+  }
+ ]
+}

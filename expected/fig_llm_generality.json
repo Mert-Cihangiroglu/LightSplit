@@ -1,0 +1,182 @@
+{
+ "table": "fig_llm_generality",
+ "key": [
+  "model",
+  "mode",
+  "cr"
+ ],
+ "decimals": {
+  "inflation": 2
+ },
+ "note": "figure coordinates are given to 3 decimals; compared at the 2 decimals the text quotes",
+ "rows": [
+  {
+   "model": "gpt2",
+   "mode": "raw",
+   "cr": 1,
+   "inflation": 1.0
+  },
+  {
+   "model": "gpt2-medium",
+   "mode": "raw",
+   "cr": 1,
+   "inflation": 1.0
+  },
+  {
+   "model": "gpt2-large",
+   "mode": "raw",
+   "cr": 1,
+   "inflation": 1.0
+  },
+  {
+   "model": "gpt2-xl",
+   "mode": "raw",
+   "cr": 1,
+   "inflation": 1.0
+  },
+  {
+   "model": "gpt2",
+   "mode": "fixed_random",
+   "cr": 8,
+   "inflation": 1.145
+  },
+  {
+   "model": "gpt2",
+   "mode": "fixed_random",
+   "cr": 16,
+   "inflation": 1.221
+  },
+  {
+   "model": "gpt2",
+   "mode": "fixed_random",
+   "cr": 32,
+   "inflation": 1.357
+  },
+  {
+   "model": "gpt2-medium",
+   "mode": "fixed_random",
+   "cr": 8,
+   "inflation": 1.106
+  },
+  {
+   "model": "gpt2-medium",
+   "mode": "fixed_random",
+   "cr": 16,
+   "inflation": 1.16
+  },
+  {
+   "model": "gpt2-medium",
+   "mode": "fixed_random",
+   "cr": 32,
+   "inflation": 1.237
+  },
+  {
+   "model": "gpt2-large",
+   "mode": "fixed_random",
+   "cr": 8,
+   "inflation": 1.071
+  },
+  {
+   "model": "gpt2-large",
+   "mode": "fixed_random",
+   "cr": 16,
+   "inflation": 1.089
+  },
+  {
+   "model": "gpt2-large",
+   "mode": "fixed_random",
+   "cr": 32,
+   "inflation": 1.132
+  },
+  {
+   "model": "gpt2-xl",
+   "mode": "fixed_random",
+   "cr": 8,
+   "inflation": 1.064
+  },
+  {
+   "model": "gpt2-xl",
+   "mode": "fixed_random",
+   "cr": 16,
+   "inflation": 1.085
+  },
+  {
+   "model": "gpt2-xl",
+   "mode": "fixed_random",
+   "cr": 32,
+   "inflation": 1.108
+  },
+  {
+   "model": "gpt2",
+   "mode": "fixed_random_ll",
+   "cr": 8,
+   "inflation": 1.179
+  },
+  {
+   "model": "gpt2",
+   "mode": "fixed_random_ll",
+   "cr": 16,
+   "inflation": 1.256
+  },
+  {
+   "model": "gpt2",
+   "mode": "fixed_random_ll",
+   "cr": 32,
+   "inflation": 1.372
+  },
+  {
+   "model": "gpt2-medium",
+   "mode": "fixed_random_ll",
+   "cr": 8,
+   "inflation": 1.175
+  },
+  {
+   "model": "gpt2-medium",
+   "mode": "fixed_random_ll",
+   "cr": 16,
+   "inflation": 1.202
+  },
+  {
+   "model": "gpt2-medium",
+   "mode": "fixed_random_ll",
+   "cr": 32,
+   "inflation": 1.276
+  },
+  {
+   "model": "gpt2-large",
+   "mode": "fixed_random_ll",
+   "cr": 8,
+   "inflation": 1.113
+  },
+  {
+   "model": "gpt2-large",
+   "mode": "fixed_random_ll",
+   "cr": 16,
+   "inflation": 1.12
+  },
+  {
+   "model": "gpt2-large",
+   "mode": "fixed_random_ll",
+   "cr": 32,
+   "inflation": 1.136
+  },
+  {
+   "model": "gpt2-xl",
+   "mode": "fixed_random_ll",
+   "cr": 8,
+   "inflation": 1.093
+  },
+  {
+   "model": "gpt2-xl",
+   "mode": "fixed_random_ll",
+   "cr": 16,
+   "inflation": 1.101
+  },
+  {
+   "model": "gpt2-xl",
+   "mode": "fixed_random_ll",
+   "cr": 32,
+   "inflation": 1.113
+  }
+ ]
+}

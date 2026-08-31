@@ -1,0 +1,183 @@
+{
+ "table": "FSHA columns of tab:block_privacy_unsplit (tables/block/block_privacy_attacks.tex)",
+ "key": [
+  "dataset",
+  "block",
+  "cr",
+  "dp_sigma"
+ ],
+ "decimals": {
+  "ssim": 3
+ },
+ "rows": [
+  {
+   "dataset": "mnist",
+   "block": 1,
+   "cr": 8,
+   "dp_sigma": "0",
+   "ssim": 0.544
+  },
+  {
+   "dataset": "mnist",
+   "block": 1,
+   "cr": 16,
+   "dp_sigma": "0",
+   "ssim": 0.646
+  },
+  {
+   "dataset": "mnist",
+   "block": 1,
+   "cr": 32,
+   "dp_sigma": "0",
+   "ssim": 0.636
+  },
+  {
+   "dataset": "mnist",
+   "block": 2,
+   "cr": 8,
+   "dp_sigma": "0",
+   "ssim": 0.652
+  },
+  {
+   "dataset": "mnist",
+   "block": 2,
+   "cr": 16,
+   "dp_sigma": "0",
+   "ssim": 0.662
+  },
+  {
+   "dataset": "mnist",
+   "block": 2,
+   "cr": 32,
+   "dp_sigma": "0",
+   "ssim": 0.424
+  },
+  {
+   "dataset": "mnist",
+   "block": 4,
+   "cr": 8,
+   "dp_sigma": "0",
+   "ssim": 0.655
+  },
+  {
+   "dataset": "mnist",
+   "block": 4,
+   "cr": 16,
+   "dp_sigma": "0",
+   "ssim": 0.55
+  },
+  {
+   "dataset": "mnist",
+   "block": 4,
+   "cr": 32,
+   "dp_sigma": "0",
+   "ssim": 0.48
+  },
+  {
+   "dataset": "fashion_mnist",
+   "block": 1,
+   "cr": 8,
+   "dp_sigma": "0",
+   "ssim": 0.43
+  },
+  {
+   "dataset": "fashion_mnist",
+   "block": 1,
+   "cr": 16,
+   "dp_sigma": "0",
+   "ssim": 0.562
+  },
+  {
+   "dataset": "fashion_mnist",
+   "block": 1,
+   "cr": 32,
+   "dp_sigma": "0",
+   "ssim": 0.538
+  },
+  {
+   "dataset": "fashion_mnist",
+   "block": 2,
+   "cr": 8,
+   "dp_sigma": "0",
+   "ssim": 0.547
+  },
+  {
+   "dataset": "fashion_mnist",
+   "block": 2,
+   "cr": 16,
+   "dp_sigma": "0",
+   "ssim": 0.533
+  },
+  {
+   "dataset": "fashion_mnist",
+   "block": 2,
+   "cr": 32,
+   "dp_sigma": "0",
+   "ssim": 0.454
+  },
+  {
+   "dataset": "fashion_mnist",
+   "block": 4,
+   "cr": 8,
+   "dp_sigma": "0",
+   "ssim": 0.526
+  },
+  {
+   "dataset": "fashion_mnist",
+   "block": 4,
+   "cr": 16,
+   "dp_sigma": "0",
+   "ssim": 0.492
+  },
+  {
+   "dataset": "fashion_mnist",
+   "block": 4,
+   "cr": 32,
+   "dp_sigma": "0",
+   "ssim": 0.539
+  },
+  {
+   "dataset": "mnist",
+   "block": 1,
+   "cr": 8,
+   "dp_sigma": "0.02",
+   "ssim": 0.814
+  },
+  {
+   "dataset": "mnist",
+   "block": 2,
+   "cr": 8,
+   "dp_sigma": "0.02",
+   "ssim": 0.513
+  },
+  {
+   "dataset": "mnist",
+   "block": 4,
+   "cr": 8,
+   "dp_sigma": "0.02",
+   "ssim": 0.439
+  },
+  {
+   "dataset": "fashion_mnist",
+   "block": 1,
+   "cr": 8,
+   "dp_sigma": "0.02",
+   "ssim": 0.62
+  },
+  {
+   "dataset": "fashion_mnist",
+   "block": 2,
+   "cr": 8,
+   "dp_sigma": "0.02",
+   "ssim": 0.461
+  },
+  {
+   "dataset": "fashion_mnist",
+   "block": 4,
+   "cr": 8,
+   "dp_sigma": "0.02",
+   "ssim": 0.303
+  }
+ ],
+ "note": "means over seeds 123/124/125."
+}

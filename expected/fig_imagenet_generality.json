@@ -1,0 +1,8 @@
+{"table": "fig_imagenet_generality", "key": ["method", "cr"], "decimals": {"pct_of_raw": 1},
+ "rows": [
+  {"method": "raw", "cr": 1, "pct_of_raw": 100.0},
+  {"method": "block_b2", "cr": 8, "pct_of_raw": 92.1}, {"method": "block_b2", "cr": 16, "pct_of_raw": 85.2}, {"method": "block_b2", "cr": 32, "pct_of_raw": 71.1},
+  {"method": "topk_sparse", "cr": 8, "pct_of_raw": 90.5}, {"method": "topk_sparse", "cr": 16, "pct_of_raw": 82.4}, {"method": "topk_sparse", "cr": 32, "pct_of_raw": 71.2},
+  {"method": "learned_1x1", "cr": 8, "pct_of_raw": 90.6}, {"method": "learned_1x1", "cr": 16, "pct_of_raw": 78.7}, {"method": "learned_1x1", "cr": 32, "pct_of_raw": 63.2},
+  {"method": "fixed_random", "cr": 8, "pct_of_raw": 72.8}, {"method": "fixed_random", "cr": 16, "pct_of_raw": 68.1}, {"method": "fixed_random", "cr": 32, "pct_of_raw": 65.5}
+ ]}

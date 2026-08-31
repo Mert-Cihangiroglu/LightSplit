@@ -1,0 +1,205 @@
+{
+ "table": "fig_har",
+ "key": [
+  "method",
+  "cr"
+ ],
+ "decimals": {
+  "test_acc": 2,
+  "test_acc_pstd": 2,
+  "recon_r2": 3,
+  "recon_r2_std": 4,
+  "reid": 3,
+  "reid_std": 4
+ },
+ "note": "figure coordinates; recon_r2/reid compared at 3 decimals (text precision), their stds at 4",
+ "rows": [
+  {
+   "method": "raw",
+   "cr": 1,
+   "test_acc": 94.01,
+   "recon_r2": 0.904,
+   "reid": 0.507
+  },
+  {
+   "method": "LS-F",
+   "cr": 8,
+   "test_acc": 94.24,
+   "test_acc_pstd": 0.79,
+   "recon_r2": 0.8609,
+   "recon_r2_std": 0.0051,
+   "reid": 0.4398,
+   "reid_std": 0.0193
+  },
+  {
+   "method": "LS-F",
+   "cr": 16,
+   "test_acc": 94.04,
+   "test_acc_pstd": 0.45,
+   "recon_r2": 0.8297,
+   "recon_r2_std": 0.0056,
+   "reid": 0.3608,
+   "reid_std": 0.0097
+  },
+  {
+   "method": "LS-F",
+   "cr": 32,
+   "test_acc": 93.97,
+   "test_acc_pstd": 0.47,
+   "recon_r2": 0.7723,
+   "recon_r2_std": 0.0099,
+   "reid": 0.2797,
+   "reid_std": 0.0172
+  },
+  {
+   "method": "LS-F+WCC",
+   "cr": 8,
+   "test_acc": 94.88,
+   "test_acc_pstd": 0.76,
+   "recon_r2": 0.6647,
+   "recon_r2_std": 0.0504,
+   "reid": 0.2283,
+   "reid_std": 0.0205
+  },
+  {
+   "method": "LS-F+WCC",
+   "cr": 16,
+   "test_acc": 93.99,
+   "test_acc_pstd": 0.46,
+   "recon_r2": 0.6765,
+   "recon_r2_std": 0.058,
+   "reid": 0.2187,
+   "reid_std": 0.0432
+  },
+  {
+   "method": "LS-F+WCC",
+   "cr": 32,
+   "test_acc": 94.54,
+   "test_acc_pstd": 0.38,
+   "recon_r2": 0.6951,
+   "recon_r2_std": 0.0129,
+   "reid": 0.1958,
+   "reid_std": 0.0224
+  },
+  {
+   "method": "LS-L",
+   "cr": 8,
+   "test_acc": 94.46,
+   "test_acc_pstd": 0.79,
+   "recon_r2": 0.8614,
+   "recon_r2_std": 0.002,
+   "reid": 0.4244,
+   "reid_std": 0.0385
+  },
+  {
+   "method": "LS-L",
+   "cr": 16,
+   "test_acc": 94.17,
+   "test_acc_pstd": 0.73,
+   "recon_r2": 0.8305,
+   "recon_r2_std": 0.0055,
+   "reid": 0.3808,
+   "reid_std": 0.007
+  },
+  {
+   "method": "LS-L",
+   "cr": 32,
+   "test_acc": 94.33,
+   "test_acc_pstd": 0.61,
+   "recon_r2": 0.7881,
+   "recon_r2_std": 0.0126,
+   "reid": 0.3054,
+   "reid_std": 0.0157
+  },
+  {
+   "method": "LS-L+WCC",
+   "cr": 8,
+   "test_acc": 94.89,
+   "test_acc_pstd": 1.29,
+   "recon_r2": 0.7109,
+   "recon_r2_std": 0.0653,
+   "reid": 0.2536,
+   "reid_std": 0.0706
+  },
+  {
+   "method": "LS-L+WCC",
+   "cr": 16,
+   "test_acc": 94.88,
+   "test_acc_pstd": 1.03,
+   "recon_r2": 0.7505,
+   "recon_r2_std": 0.0158,
+   "reid": 0.2693,
+   "reid_std": 0.0472
+  },
+  {
+   "method": "LS-L+WCC",
+   "cr": 32,
+   "test_acc": 94.45,
+   "test_acc_pstd": 0.76,
+   "recon_r2": 0.7094,
+   "recon_r2_std": 0.0211,
+   "reid": 0.2154,
+   "reid_std": 0.0138
+  },
+  {
+   "method": "learned_1x1",
+   "cr": 8,
+   "test_acc": 94.74,
+   "test_acc_pstd": 0.63,
+   "recon_r2": 0.8579,
+   "recon_r2_std": 0.005,
+   "reid": 0.3902,
+   "reid_std": 0.0218
+  },
+  {
+   "method": "learned_1x1",
+   "cr": 16,
+   "test_acc": 93.95,
+   "test_acc_pstd": 0.12,
+   "recon_r2": 0.8266,
+   "recon_r2_std": 0.0047,
+   "reid": 0.354,
+   "reid_std": 0.0133
+  },
+  {
+   "method": "learned_1x1",
+   "cr": 32,
+   "test_acc": 94.16,
+   "test_acc_pstd": 1.0,
+   "recon_r2": 0.7793,
+   "recon_r2_std": 0.0173,
+   "reid": 0.2862,
+   "reid_std": 0.0204
+  },
+  {
+   "method": "topk_sparse",
+   "cr": 8,
+   "test_acc": 94.12,
+   "test_acc_pstd": 0.47,
+   "recon_r2": 0.7969,
+   "recon_r2_std": 0.0027,
+   "reid": 0.3908,
+   "reid_std": 0.0434
+  },
+  {
+   "method": "topk_sparse",
+   "cr": 16,
+   "test_acc": 93.29,
+   "test_acc_pstd": 0.38,
+   "recon_r2": 0.7737,
+   "recon_r2_std": 0.008,
+   "reid": 0.3294,
+   "reid_std": 0.0132
+  },
+  {
+   "method": "topk_sparse",
+   "cr": 32,
+   "test_acc": 93.3,
+   "test_acc_pstd": 0.27,
+   "recon_r2": 0.7396,
+   "recon_r2_std": 0.0066,
+   "reid": 0.2808,
+   "reid_std": 0.038
+  }
+ ]
+}

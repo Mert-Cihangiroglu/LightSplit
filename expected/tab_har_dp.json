@@ -1,0 +1,21 @@
+{
+"table": "tab:privacy_all (HAR DP cells)",
+"csv": "utility-har/results/reproduce/tab_har_dp.csv",
+"key": [
+"method"
+],
+"decimals": {
+"r2_pct": 1,
+"reid_pct": 1
+},
+"rows": [
+{
+"method": "Raw+DP",
+"r2_pct": -19.6
+},
+{
+"method": "LS-F+DP",
+"r2_pct": -17.4
+}
+]
+}
