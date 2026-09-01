@@ -1,6 +1,6 @@
-# LightSplit — artifact
+# LightSplit
 
-Code accompanying *LightSplit: Practical Privacy-Preserving Split Learning via
+*LightSplit: Practical Privacy-Preserving Split Learning via
 Orthogonal Projections*.
 
 The main utility harness lives in `utility/`, with three further `utility-*/`
